@@ -1,0 +1,11 @@
+[package]
+name = "cffi_rust"
+version = "0.1.0"
+authors = ["jdavidagudelo <jdaaa2009@gmail.com>"]
+
+[dependencies]
+libc = "*"
+
+[lib]
+name = "integers"
+crate-type = ["cdylib"]
